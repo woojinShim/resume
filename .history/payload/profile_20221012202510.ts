@@ -1,6 +1,6 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '심우진',
+    small: '(Lewis)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'cmshim22@gmail.com',
       link: '#',
       icon: faEnvelope,
     },
@@ -25,23 +25,23 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/woojinShim',
+      link: 'https://github.com/woojinShim',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      link: 'https://velog.io/@woojinshim103',
+      icon: faBook,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
+      title: 'SoundCloud',
+      link: 'https://www.youtube.com/channel/UCN015PIYR742TB0Ku5AaW9Q',
       // icon: faRss,
-      icon: faYoutube,
+      icon: faSoundcloud,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: '휴대전화나 메시지 아닌 이메일로 연락 부탁드립니다.',
     icon: faBell,
   },
 };

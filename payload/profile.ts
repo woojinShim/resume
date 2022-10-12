@@ -1,6 +1,6 @@
 import { faBook, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faSoundcloud, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -34,10 +34,10 @@ const profile: IProfile.Payload = {
       icon: faBook,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UCN015PIYR742TB0Ku5AaW9Q',
+      title: 'Soundcloud',
+      link: 'https://soundcloud.com/woojin-lewis-shim',
       // icon: faRss,
-      icon: faYoutube,
+      icon: faSoundcloud,
     },
   ],
   notice: {
