@@ -7,10 +7,11 @@ const project: IProject.Payload = {
       title: '간송미술관 NFT 주소입력 서비스 개발',
       startedAt: '2022-07',
       endedAt: '2022-08',
-      where: 'https://kansong.io/address.html',
+      link: 'https://kansong.io/address.html',
       descriptions: [
         {
-          content: '지갑주소 NFT Balance를 조회해 배송 서비스 구현',
+          content:
+            '지갑주소 NFT Balance를 조회해 배송 서비스 구현',
         },
         { content: 'Firebase CRUD 구현' },
         { content: '국내, 해외로 구분' },
@@ -21,11 +22,11 @@ const project: IProject.Payload = {
       title: '고전 NFT 프로젝트',
       startedAt: '2022-05',
       endedAt: '2022-08',
-      where: 'https://github.com/woojinShim/myNFT',
+      link: 'https://github.com/woojinShim/myNFT',
       descriptions: [
         { content: 'ERC-721a' },
         { content: 'Reveal 방식의 IPFS tokenURI' },
-        { content: 'Image Layer Randomize, Metadata, Pinata CID' },
+        { content: '이미지 레이어 조합, Metadata, Pinata CID' },
         { content: 'NFT Marketplace, SubGraph 거래 정보 Indexing' },
         { content: 'OpenZeppelin DAO Voting System 구현' },
       ],
@@ -34,7 +35,7 @@ const project: IProject.Payload = {
       title: 'Studiearn',
       startedAt: '2022-02',
       endedAt: '2022-04',
-      where: '아톰릭스랩 (Atomrigs Lab)',
+      link: '아톰릭스랩 (Atomrigs Lab)',
       descriptions: [
         { content: '어워드타입추가 기능, 어워드추가 기능, 해당어워드 민팅기능' },
         { content: 'Hardhat NFT Contract Test Case 작성' },
@@ -45,7 +46,7 @@ const project: IProject.Payload = {
       title: 'Token Farm (Staking Dapp)',
       startedAt: '2022-01',
       endedAt: '2022-01',
-      where: 'https://github.com/woojinShim/DeFi-Stake-Yield-Brownie',
+      link: 'https://github.com/woojinShim/DeFi-Stake-Yield-Brownie',
       descriptions: [
         { content: '토큰을 Contract에 Staking하는 디앱' },
         { content: 'Python Brownie를 이용한 Web3 배포' },
@@ -53,30 +54,31 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: 'ERC-721을 이용한 NFT 업로드',
+      title: 'ERC-721토큰을 이용한 NFT 업로드',
       startedAt: '2022-01',
       endedAt: '2022-01',
-      where: 'https://github.com/woojinShim/NFT-Brownie',
-      descriptions: [{ content: '분산형 파일 시스템 IPFS 이용' }],
+      link: 'https://github.com/woojinShim/NFT-Brownie',
+      descriptions: [
+        { content: '분산형 파일 시스템 IPFS 이용' },
+      ],
     },
     {
       title: 'ERC-20을 이용한 토큰 발행',
       startedAt: '2022-01',
       endedAt: '2022-01',
-      where: 'https://github.com/woojinShim/Customize-ERC-20',
-      descriptions: [],
+      link: 'https://github.com/woojinShim/Customize-ERC-20',
+      descriptions: [
+
+      ],
     },
     {
       title: 'GOODDA (할인정보 제공 서비스)',
       startedAt: '2021-11',
       endedAt: '2021-12',
-      where: 'https://github.com/woojinShim/Goodda',
+      link: 'https://github.com/woojinShim/Goodda',
       descriptions: [
         { content: '할인정보 데이터, API 설계' },
-        {
-          content:
-            '디자이너의 제안으로 보관함 기능을 Folder와 사용자, N : 1로 만들고 사용자가 여러 FolderList를 가질 수 있게 구현',
-        },
+        { content: '디자이너의 제안으로 보관함 기능을 Folder와 사용자, N : 1로 만들고 사용자가 여러 FolderList를 가질 수 있게 구현' },
         { content: 'SpringBoot, JPA, Gradle, AWS EC2/S3/RDS, SpringSecurity, JWT , MySql' },
       ],
     },
@@ -84,12 +86,9 @@ const project: IProject.Payload = {
       title: 'Gallery House (갤러리 공유 서비스)',
       startedAt: '2021-10',
       endedAt: '2021-10',
-      where: 'https://github.com/woojinShim/Mini-Project-Gallery',
+      link: 'https://github.com/woojinShim/Mini-Project-Gallery',
       descriptions: [
-        {
-          content:
-            'JPA를 활용한 DB테이블링 및 API구현, JWT 토큰을 활용한 유저 인증과 로그인 회원가입 구현',
-        },
+        { content: 'JPA를 활용한 DB테이블링 및 API구현, JWT 토큰을 활용한 유저 인증과 로그인 회원가입 구현' },
         { content: 'SpringBoot, JPA, Gradle, AWS EC2/S3/RDS, SpringSecurity, JWT , MySql' },
       ],
     },

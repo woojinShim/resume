@@ -5,9 +5,10 @@ const etc: IEtc.Payload = {
 
   list: [
     {
-      title: '전자기기기능사',
-      subTitle: '한국산업인력공단',
-      startedAt: '2018-12',
+      title: '코딩부트캠프 항해99 수료',
+      subTitle: 'Backend Java Spring',
+      startedAt: '2021-09',
+      endedAt: '2021-12',
     },
   ],
 };

@@ -7,7 +7,8 @@ const etc: IEtc.Payload = {
     {
       title: '전자기기기능사',
       subTitle: '한국산업인력공단',
-      startedAt: '2018-12',
+      startedAt: '2021-09',
+      endedAt: '2021-12',
     },
   ],
 };
